@@ -171,3 +171,23 @@ header nav .mode .mode-switch.active::after{
     padding: 10px;
 
 }
+#lateral{
+    width: 100%;
+    height: 100%;
+    background-color: #00000070;
+    backdrop-filter: blur(3px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 300ms ease;
+       
+}
+ #lateral .conteudo{
+    width: 400%;
+    height: 100%;
+    background-color: #F5F5F5;
+    position: ;
+ }

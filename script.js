@@ -16,3 +16,8 @@ modeSwitch.onclick = (e) => {
         localStorage.setItem('lightMode',false);
     }
 }
+
+let btnAbrir = document.querySelector(".abrir-lateral");
+btnAbrir.onclick = function(){
+    lateral.classList.add("active");
+}
